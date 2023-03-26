@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.11)
 project(LuaCodeStyle)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 option(BuildAsLuaLib "Build for lua dll" OFF)
 option(BuildCodeFormat "Build CodeFormat" ON)
